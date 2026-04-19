@@ -27,7 +27,7 @@ const Pricing = () => {
                         <div className="mb-8">
                             <h3 className="text-lg font-bold text-navy-900 dark:text-slate-100">Free</h3>
                             <div className="mt-4 flex items-baseline gap-1">
-                                <span className="text-5xl font-black text-navy-900 dark:text-slate-100">0€</span>
+                                <span className="text-5xl font-black text-navy-900 dark:text-slate-100">0 MAD</span>
                             </div>
                             <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">Parfait pour débuter</p>
                         </div>
@@ -70,7 +70,7 @@ const Pricing = () => {
                         <div className="mb-8">
                             <h3 className="text-lg font-bold text-navy-900 dark:text-slate-100">Premium</h3>
                             <div className="mt-4 flex items-baseline gap-1">
-                                <span className="text-5xl font-black text-navy-900 dark:text-slate-100">100</span>
+                                <span className="text-5xl font-black text-navy-900 dark:text-slate-100">99</span>
                                 <span className="text-xl font-black text-navy-900 dark:text-slate-100">MAD</span>
                                 <span className="text-sm font-bold text-slate-500 dark:text-slate-400">/mois</span>
                             </div>
@@ -103,10 +103,6 @@ const Pricing = () => {
                             <li className="flex items-center gap-3 text-sm font-medium">
                                 <span className="material-symbols-outlined text-primary text-[20px]">check_circle</span>
                                 Suivi avancé
-                            </li>
-                            <li className="flex items-center gap-3 text-sm font-medium">
-                                <span className="material-symbols-outlined text-primary text-[20px]">check_circle</span>
-                                Session de mentorat
                             </li>
                         </ul>
                     </div>
