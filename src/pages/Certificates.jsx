@@ -95,28 +95,4 @@ const Certificates = () => {
                 </div>
               </div>
 
-              {/* Certificate 2 */}
-              <div className="bg-[#1E293B] rounded-2xl p-7 flex flex-col sm:flex-row gap-6 items-center shadow-lg border border-slate-700 hover:shadow-xl transition-shadow">
-                <div className="w-[100px] h-[100px] bg-primary/10 rounded-2xl flex flex-col items-center justify-center shrink-0 border border-primary/20">
-                  <span className="material-symbols-outlined text-4xl text-primary font-bold">workspace_premium</span>
-                  <span className="text-[10px] uppercase font-bold text-primary mt-1 tracking-widest">Verified</span>
-                </div>
-                <div className="flex-1 text-center sm:text-left w-full">
-                  <h4 className="font-bold text-white text-[18px]">UI/UX Design Masterclass 2023</h4>
-                  <p className="text-[13px] text-slate-400 font-medium italic mt-1">Issued Sep 12, 2023</p>
-                  <div className="flex gap-3 mt-5 justify-center sm:justify-start">
-                    <button className="flex-1 sm:flex-none px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-white text-sm font-bold rounded-xl transition-colors flex items-center justify-center gap-2 border border-slate-600">
-                      <span className="material-symbols-outlined text-[18px]">download</span>
-                      Download
-                    </button>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </main>
-    </div>
-  );
-};
-
-export default Certificates;
+              
