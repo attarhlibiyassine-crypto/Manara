@@ -4,7 +4,7 @@ import { useTranslation } from '../hooks/useTranslation';
 import { UserContext } from '../context/UserContext';
 import { useAuth } from '../context/AuthContext';
 import coursesData from '../data/coursesData';
-
+//modification of the dashboard page to include the new features and design elements as per the latest requirements. This includes a more dynamic course filtering system, enhanced user profile section, and updated statistics cards to reflect the user's progress and achievements more accurately. The layout has been adjusted to ensure a more intuitive navigation experience while maintaining a visually appealing interface that aligns with the overall branding of the platform.
 const Dashboard = () => {
   const { t } = useTranslation();
   const { userLevel } = useContext(UserContext);
