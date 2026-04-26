@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ffbf00;
+  --color-navy-900: #0f172a;
+  --color-navy-800: #1e293b;
+  --color-background-light: #f8f8f5;
+  --color-background-dark: #231e0f;
+  --font-display: 'Lexend', sans-serif;
+}
+
+body {
+  @apply bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100;
+}
