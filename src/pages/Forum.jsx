@@ -11,7 +11,7 @@ const AVATARS = {
   currentUser: 'https://api.dicebear.com/9.x/avataaars/svg?seed=CurrentUser&backgroundColor=c0aede',
 };
 
-/* ─── Left sidebar subjects ─────────────────────────────────────────── */
+/* ─── Left sidebar subjects ───────────--------──────────────────────────────── */
 const SUBJECTS = [
   { icon: 'code',           label: 'HTML/CSS',       count: 245 },
   { icon: 'javascript',     label: 'JavaScript',     count: 412 },
