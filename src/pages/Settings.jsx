@@ -9,7 +9,7 @@ const Settings = () => {
 
   return (
     <div className="flex min-h-screen bg-[#0F172A] font-display text-slate-100">
-      {/* Sidebar copied from Dashboard.jsx */}
+      {/* Sidebar copied from Dashboard.jsx          */}
       <aside className="w-[280px] bg-[#161B28] text-white hidden md:flex flex-col fixed h-full z-50 border-r border-slate-800/50">
         <div className="p-8">
           <Link to="/" className="flex items-center gap-3">
